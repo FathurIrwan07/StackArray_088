@@ -17,4 +17,12 @@ public:
 
 	void push() {
 		int element;
+		cout << "Enter the element : " << endl;
+		cin >> element;
+		if (top == 4) {  //step 1
+			cout << "Number of data exceed the limit" << endl;
+
+			return;
+		}
+
 		
