@@ -12,4 +12,8 @@ private:
 public:
 	//constructor
 	StackArray() {
-		
+		top = -1;
+	}
+
+
+	
